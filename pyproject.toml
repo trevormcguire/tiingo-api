@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiingo-api"
+version = "0.0.1"
+authors = [
+  { name="Trevor McGuire", email="trevormcguire13@gmail.com" },
+]
+description = "Tiingo API Python Wrapper"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.0"
+
+[project.urls]
+"Homepage" = "https://github.com/trevormcguire/tiingo-api"
